@@ -1,0 +1,40 @@
+@import "~styles/variables";
+
+.message {
+  display: flex;
+  margin: 0 0 25px 0;
+  width: 85%;
+
+  .avatar-wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 20px 0 0;
+    .avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50px;
+    }
+  }
+  .message-body {
+    background-color: $bundle-color;
+    border-radius: 10px 10px 10px 0px;
+    padding: 10px;
+    .message-meta {
+      text-align: right;
+    }
+    .message-text {
+      margin-bottom: 10px;
+    }
+  }
+  &-me {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+    .avatar-wrapper {
+      margin: 0 0 0 20px;
+    }
+    .message-body {
+      border-radius: 10px 10px 0px 10px;
+    }
+  }
+}

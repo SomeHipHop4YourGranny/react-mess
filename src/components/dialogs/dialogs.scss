@@ -1,0 +1,14 @@
+.dialogs {
+  display: flex;
+  flex-direction: column;
+  .lds-ring {
+    margin: 0 !important;
+    justify-self: center;
+    align-self: center;
+  }
+  overflow: hidden;
+  height: calc(100vh - 50px);
+  &:hover {
+    overflow-y: auto;
+  }
+}

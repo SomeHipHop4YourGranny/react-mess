@@ -1,0 +1,44 @@
+@import "~styles/variables";
+
+.chatInput {
+  position: sticky;
+
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid $gray;
+  background-color: $white;
+  padding-bottom: 15px;
+  form {
+    display: flex;
+    margin-top: 10px;
+  }
+  .label-input {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+  input[type="text"] {
+    flex-grow: 1;
+    min-height: 50px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+  }
+  textarea {
+    height: 20px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    line-height: 1;
+    flex-grow: 1;
+    resize: none;
+    border-bottom: 1px solid $black;
+  }
+}

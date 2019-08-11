@@ -1,0 +1,20 @@
+@import "~styles/variables";
+.chat-wrp {
+  .lds-ring {
+    margin-top: 40% !important;
+    margin-left: 50% !important;
+  }
+}
+.chat {
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 300px 1fr;
+
+  .left-side {
+    grid-area: left;
+  }
+  .right-side {
+    grid-area: right;
+    border-left: 1px solid $gray;
+  }
+}

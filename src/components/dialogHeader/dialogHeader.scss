@@ -1,0 +1,19 @@
+@import "~styles/variables";
+
+.dialog-header {
+  form {
+    height: 30px;
+    input {
+      height: 30px;
+    }
+  }
+  padding: 0 10px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $gray;
+  background-color: $white;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+}

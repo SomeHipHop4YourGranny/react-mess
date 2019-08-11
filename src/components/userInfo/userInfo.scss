@@ -1,0 +1,23 @@
+@import "~styles/variables";
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $black;
+  padding: 10px 20px 0 20px;
+  overflow: auto;
+  height: calc(100vh - 130px);
+  p {
+    text-align: center;
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  .start-mess {
+    display: block;
+  }
+}

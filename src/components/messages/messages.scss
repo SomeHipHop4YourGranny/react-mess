@@ -1,0 +1,15 @@
+@import "~styles/variables";
+
+.messages {
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 0 20px;
+  overflow: auto;
+  height: calc(100vh - 130px);
+  .lds-ring {
+    margin: 0 !important;
+    justify-self: center;
+    align-self: center;
+  }
+}
